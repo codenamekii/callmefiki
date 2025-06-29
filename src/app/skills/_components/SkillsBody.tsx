@@ -1,7 +1,6 @@
 import Typography from "@/components/Typography";
-import React from "react";
-import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
 import SkillsEditor from "./SkillsEditor";
 
 export default function SkillsBody() {
@@ -17,7 +16,7 @@ export default function SkillsBody() {
       <div className="w-full mx-auto text-center">
         <Typography.Typing
           sequence={[
-            "Just a few of my skills using some programming lang that I've learned and mastered.",
+            "Just a few of my skills using some programming lang that I've learned and learned.",
           ]}
           className="text-center"
           cursor={false}

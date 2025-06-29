@@ -1,13 +1,13 @@
 "use client";
 
 import Typography from "@/components/Typography";
+import { useGtag } from "@/hooks/useGtag.hook";
 import type { PagesListType } from "@/types/Content";
 import Link from "next/link";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { useHome } from "../_hooks/useHome.hook";
 import { FirstRow, SecondRow } from "./HomeRow";
-import { useGtag } from "@/hooks/useGtag.hook";
 
 export default function Home() {
   const { list } = useHome();
@@ -28,9 +28,9 @@ export default function Home() {
             <TypeAnimation
               className="font-semibold text-xl text-green-light"
               sequence={[
-                "Hello World!",
+                "こんにちは、友達!",
                 1000,
-                "Hello Fellas!",
+                "Wassup MotherF*ckers!",
                 1000,
                 "Hello Everyone!",
                 1000,
@@ -52,7 +52,7 @@ export default function Home() {
           <SecondRow>
             <Typography.Typing
               sequence={[
-                "Greetings, fellow wanderers! I'm Daffa Kurnia Fatah, your trusty coding bard from the sun-kissed lands of Sidoarjo, East Java, Indonesia. With Next.js and ReactJS as my instruments, I craft code and design magic through Figma, weaving interactive spells of user experience and animation. Your wish is my code!",
+                "Hey there, I`m Fiki — a web developer and lecturer from South Sulawesi, Indonesia. I work mostly with Laravel and ReactJS, and sometimes I mess around with ESP32 and IoT projects for monitoring and automation. For me, coding is not just work — it`s a way to build stuff that actually helps people. If you need something that works and makes sense, let`s talk.",
               ]}
               speed={99}
               cursor={false}

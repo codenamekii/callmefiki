@@ -1,33 +1,33 @@
 [
   {
-    "icon": "react",
+    "icon": "react1",
     "tracking": "react",
     "name": "React",
     "link": "https://react.dev/"
   },
   {
-    "icon": "vue",
-    "tracking": "vue",
-    "name": "Vue.js",
-    "link": "https://vuejs.org/"
+    "icon": "postman",
+    "tracking": "postman",
+    "name": "Postman",
+    "link": "https://www.postman.com/"
   },
   {
-    "icon": "nextjs",
+    "icon": "next-dot-js",
     "tracking": "nextjs",
     "name": "Next.js",
     "link": "https://nextjs.org/"
   },
   {
-    "icon": "nodejs",
-    "tracking": "nodejs",
-    "name": "Node.js",
-    "link": "https://nodejs.org/en/"
+    "icon": "git",
+    "tracking": "git",
+    "name": "Git",
+    "link": "https://git-scm.com/"
   },
   {
-    "icon": "django",
-    "tracking": "django",
-    "name": "Django",
-    "link": "https://www.djangoproject.com/"
+    "icon": "docker",
+    "tracking": "docker",
+    "name": "Docker",
+    "link": "https://www.docker.com/"
   },
   {
     "icon": "laravel",
@@ -36,34 +36,34 @@
     "link": "https://laravel.com/"
   },
   {
-    "icon": "tailwind",
+    "icon": "tailwindcss",
     "tracking": "tailwind",
     "name": "Tailwind CSS",
     "link": "https://tailwindcss.com/"
   },
   {
-    "icon": "bootstrap",
-    "tracking": "bootstrap",
-    "name": "Bootstrap",
-    "link": "https://getbootstrap.com/"
+    "icon": "flutter",
+    "tracking": "flutter",
+    "name": "Flutter",
+    "link": "https://flutter.dev/"
   },
   {
-    "icon": "antd",
-    "tracking": "antd",
-    "name": "AntDesign",
-    "link": "https://ant.design/"
+    "icon": "linux",
+    "tracking": "linux",
+    "name": "Linux",
+    "link": "https://www.linux.org/"
   },
   {
-    "icon": "storybook",
-    "tracking": "storybook",
-    "name": "Storybook",
-    "link": "https://storybook.js.org/"
+    "icon": "postgresql",
+    "tracking": "postgresql",
+    "name": "PostgreSQL",
+    "link": "https://www.postgresql.org/"
   },
   {
-    "icon": "redux",
-    "tracking": "redux",
-    "name": "Redux",
-    "link": "https://redux.js.org/"
+    "icon": "go",
+    "tracking": "go",
+    "name": "Go",
+    "link": "https://golang.org/"
   },
   {
     "icon": "framer",

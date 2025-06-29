@@ -1,7 +1,6 @@
-import React from "react";
-import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import GitHubCalendar from "react-github-calendar";
+import { TypeAnimation } from "react-type-animation";
 
 export default function AboutContribution() {
   return (
@@ -21,7 +20,7 @@ export default function AboutContribution() {
       >
         <GitHubCalendar
           colorScheme="dark"
-          username="daffakurnia11"
+          username="codenamekii"
           theme={{
             dark: ["#2C3333", "#395B64", "#A5C9CA", "#E7F6F2", "#FCFEFD"],
           }}

@@ -12,7 +12,7 @@ dafkur.com
   <img src="https://img.shields.io/badge/JavaScript-3.3%25-yellow?style=flat-square&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/portfolio-live-blue?style=flat-square&logo=vercel&link=https://dafkur.com" />
   <img src="https://img.shields.io/badge/deployed%20on-vercel-000?style=flat-square&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/SEO-optimized-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/SEO-optimized-brightgreen?sty  le=flat-square" />
 </p>
 
 <h3 align="center">

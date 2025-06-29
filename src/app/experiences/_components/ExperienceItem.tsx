@@ -1,7 +1,6 @@
-import React from "react";
-import { TypeAnimation } from "react-type-animation";
-import { motion } from "framer-motion";
 import type { ExperienceDataType } from "@/types/Content";
+import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
 
 interface Props extends ExperienceDataType {
   index: number;
@@ -9,19 +8,22 @@ interface Props extends ExperienceDataType {
 
 export default function ExperienceItem({ index, ...data }: Props) {
   return (
-    <div className="flex flex-col sm:flex-row w-full items-center gap-1 sm:gap-5 relative">
-      <div className="flex-1 w-full">
+    <div className="relative flex flex-col sm:flex-row items-start w-full gap-2 sm:gap-5 px-2 sm:px-0">
+      {/* Kolom kiri: tanggal */}
+      <div className="w-full sm:w-1/2 text-left sm:text-right pr-6 sm:pr-8">
         <TypeAnimation
-          className="text-sm text-green-secondary block text-start sm:text-end"
+          className="text-sm text-green-secondary block"
           sequence={[index * 300, `${data.start} - ${data.end ?? "Present"}`]}
           speed={80}
           cursor={false}
           wrapper="span"
         />
       </div>
-      <div className="flex-1 w-full">
+
+      {/* Kolom kanan: isi pengalaman */}
+      <div className="w-full sm:w-1/2 pl-6 sm:pl-8">
         <TypeAnimation
-          className="text-green-light text-base"
+          className="text-green-light text-base font-medium"
           sequence={[index * 300, `${data.position}`]}
           speed={80}
           cursor={false}
@@ -42,16 +44,23 @@ export default function ExperienceItem({ index, ...data }: Props) {
           wrapper="span"
         />
       </div>
-      <motion.span
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{
-          type: "tween",
-          duration: 0.5,
-          delay: 1 + index * 0.2,
-        }}
-        className="absolute w-2 h-2 top-0 sm:top-1/2 -left-4 sm:left-1/2 -translate-x-1/3 sm:-translate-x-1/2 translate-y-3/4 sm:-translate-y-1/2 rounded-full bg-green-primary content-none"
-      ></motion.span>
+
+      {/* Titik dan garis pendek */}
+      <div className="absolute top-0 sm:top-1/2 left-[28px] sm:left-1/2 -translate-x-1/2">
+        {/* Titik */}
+        <motion.span
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            type: "tween",
+            duration: 0.5,
+            delay: 1 + index * 0.2,
+          }}
+          className="block w-2 h-2 bg-green-primary rounded-full"
+        />
+        {/* Garis pendek */}
+        <div className="w-px h-16 bg-green-primary mx-auto mt-1" />
+      </div>
     </div>
   );
 }

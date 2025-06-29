@@ -5,7 +5,6 @@ import ReCaptchaProvider from "@/components/ReCaptcha/Provider";
 import Typography from "@/components/Typography";
 import { useMobile } from "@/hooks/useMobile.hook";
 import { motion } from "framer-motion";
-import React from "react";
 import { useFormContact } from "../_hooks/useFormContact.hook";
 
 export default function FormContact() {
@@ -116,7 +115,7 @@ export default function FormContact() {
                           className="text-green-secondary group-hover:text-black"
                           isScrambled
                         >
-                          daffakurniaf11@gmail.com
+                          magnoncro95@gmail.com
                         </Typography.Small>
                       </>
                     )}

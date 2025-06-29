@@ -1,6 +1,6 @@
 {
-  "name": "dafkur",
-  "version": "3.0.4",
+  "name": "callmefiki",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",

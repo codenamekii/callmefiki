@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -11,14 +10,14 @@ export default function AboutPhoto() {
     >
       <div className="w-full max-w-[300px] mx-auto lg:mt-16 rounded-2xl overflow-hidden">
         <Image
-          src="/profile.png"
-          alt="Daffa Kurnia Fatah"
+          src="/profil.png"
+          alt="kiifiki"
           width={0}
           height={0}
           sizes="100vw"
           style={{
             width: "100%",
-            height: "auto",
+            height: "auto", 
           }}
         />
       </div>

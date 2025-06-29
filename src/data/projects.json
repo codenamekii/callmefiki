@@ -1,10 +1,10 @@
 {
   "data": [
     {
-      "key": "dafkur2.0",
-      "id": "dafkur2.0",
+      "key": "kiifiki",
+      "id": "kiifiki",
       "shape": "horizontal",
-      "name": "Dafkur.com 2.0",
+      "name": "kiifiki.netlify.app",
       "description": "My second version of Personal Website",
       "brief": [
         "Dafkur.com 2.0 is my second version of personal website designed to showcase my previous projects and serve as an online portfolio. The website aims to enhance personal branding by including sections like About, Contact, and Experiences. The website also features a resume section that showcases my skills and experience. The website is fully responsive and mobile-friendly.",
@@ -16,8 +16,8 @@
         "SCSS"
       ],
       "background": null,
-      "link": "https://v2.dafkur.com/",
-      "repo": "https://github.com/daffakurnia11/daffakurnia.me-new"
+      "link": "https://kiifiki.netlify.app/",
+      "repo": "https://github.com/codenamekii/modern-portfolio"
     },
     {
       "key": "candlecraft",
@@ -281,7 +281,7 @@
   "layout": {
     "lg": [
       {
-        "i": "dafkur2.0",
+        "i": "kiifiki",
         "x": 0,
         "y": 0,
         "w": 2,
@@ -374,7 +374,7 @@
     ],
     "md": [
       {
-        "i": "dafkur2.0",
+        "i": "kiifiki",
         "x": 0,
         "y": 0,
         "w": 2,
@@ -467,7 +467,7 @@
     ],
     "sm": [
       {
-        "i": "dafkur2.0",
+        "i": "kiifiki",
         "x": 0,
         "y": 0,
         "w": 2,

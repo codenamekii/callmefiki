@@ -1,4 +1,3 @@
-import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
 export default function AboutStatus() {
@@ -27,7 +26,7 @@ export default function AboutStatus() {
         />
         <TypeAnimation
           className="text-green-light text-base font-bold"
-          sequence={["Agensi Pekerjaan Ajobthing Sdn Bhd"]}
+          sequence={["part-time web developer"]}
           speed={80}
           cursor={false}
         />
@@ -41,7 +40,7 @@ export default function AboutStatus() {
         />
         <TypeAnimation
           className="text-green-light text-base font-bold"
-          sequence={["Sleman, Yogyakarta, Indonesia"]}
+          sequence={["Makassar, South of Celebes, Indonesia"]}
           speed={80}
           cursor={false}
         />

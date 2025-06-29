@@ -1,5 +1,4 @@
 import Typography from "@/components/Typography";
-import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
 export default function AboutBody() {
@@ -16,11 +15,11 @@ export default function AboutBody() {
         <TypeAnimation
           className="text-green-light text-xl font-bold"
           sequence={[
-            "Daffa Kurnia Fatah",
+            "Taufiqurrahman",
             1000,
-            "Daffa Kurnia",
+            "callmefiki",
             1000,
-            "Daffa",
+            "kiifiki",
             1000,
           ]}
           speed={50}
@@ -28,10 +27,10 @@ export default function AboutBody() {
           wrapper="h1"
         />
       </div>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 text-justify">
         <Typography.Typing
           sequence={[
-            "Hello! I'm Daffa. I am a Full-stack Web Developer, currently focusing and deeply developing my skills as a Frontend Developer using Next.js.",
+            "Hey! I’m Fiki — a part-time web dev and ungraduated student from South Sulawesi, Indonesia. Lately, I spend most of my time messing around with Laravel, React, and sometimes ESP32 stuff for IoT projects.",
           ]}
           cursor={false}
           speed={90}
@@ -39,7 +38,7 @@ export default function AboutBody() {
         <Typography.Typing
           sequence={[
             200,
-            "I began my journey into web development in 2020 while working on a final project for a college course in Computer Programming. This sparked my interest, and I further honed my skills through YouTube tutorials and self-learning by undertaking various projects in my own startup, which specializes in web development services.",
+            "I started coding seriously back in 2020 during a college final project. That project got me into web dev, and from there I just kept learning — mostly from YouTube, building random projects, and debugging with the help of Google and Stack Overflow (a lot of it).",
           ]}
           cursor={false}
           speed={95}
@@ -47,7 +46,7 @@ export default function AboutBody() {
         <Typography.Typing
           sequence={[
             400,
-            "My primary learning resources are YouTube, self-learning through project work, and self-debugging with the help of Stack Overflow and Google. Presently, I am concentrating on frontend development using React.js and Next.js, and I am also expanding my knowledge into mobile development with React Native.",
+            "I usually learn by doing. I like building real stuff, breaking it, then figuring out how to fix it. These days, I’m focused on frontend stuff with React and Laravel, and slowly picking up React Native to try out mobile dev.",
           ]}
           cursor={false}
           speed={95}
@@ -55,7 +54,7 @@ export default function AboutBody() {
         <Typography.Typing
           sequence={[
             600,
-            "I have a passion for learning new things and enjoy discussing web development topics. I also love sharing my knowledge with others.",
+            "I enjoy learning new things, chatting about tech, and helping people figure stuff out. This site’s just my spot to share what I’ve built and what I’ve learned — no big deal.",
           ]}
           cursor={false}
           speed={90}

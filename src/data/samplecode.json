@@ -1,18 +1,18 @@
 [
   {
     "lang": "javascript",
-    "content": "// Javascript\nconst arr = [\"Daffa\", \"Kurnia\", \"Fatah\"];\n\nfunction greeting() {\n  const name = arr.find((item) => item === \"Daffa\");\n  return `Hello, ${name}!`;\n}\n\nconsole.log(greeting()); // Hello, Daffa!"
+    "content": "// Javascript\nconst arr = [\"taufiqurrahman\"];\n\nfunction greeting() {\n  const name = arr.find((item) => item === \"taufiqurrahman\");\n  return `Hello, ${name}!`;\n}\n\nconsole.log(greeting()); // Hello, taufiqurrahman!"
   },
   {
     "lang": "typescript",
-    "content": "// TypeScript\nconst arr: string[] = [\"Daffa\", \"Kurnia\", \"Fatah\"];\n\nfunction greeting(): string {\n  const name: string | undefined = arr.find((item) => item === \"Daffa\");\n  return `Hello, ${name}!`;\n}\n\nconsole.log(greeting()); // Hello, Daffa!"
+    "content": "// TypeScript\nconst arr: string[] = [\"taufiqurrahman\"];\n\nfunction greeting(): string {\n  const name: string | undefined = arr.find((item) => item === \"taufiqurrahman\");\n  return `Hello, ${name}!`;\n}\n\nconsole.log(greeting()); // Hello, taufiqurrahman!"
   },
   {
     "lang": "python",
-    "content": "# Python\narr = [\"Daffa\", \"Kurnia\", \"Fatah\"]\n\ndef greeting():\n    name = next((item for item in arr if item == \"Daffa\"), None)\n    return f\"Hello, {name}!\"\n\nprint(greeting()) # Hello, Daffa!"
+    "content": "# Python\narr = [\"taufiqurrahman\"]\n\ndef greeting():\n    name = next((item for item in arr if item == \"taufiqurrahman\"), None)\n    return f\"Hello, {name}!\"\n\nprint(greeting()) # Hello, taufiqurrahman!"
   },
   {
     "lang": "php",
-    "content": "<?php\n// PHP\n$arr = [\"Daffa\", \"Kurnia\", \"Fatah\"];\n\nfunction greeting($arr) {\n  $name = null;\n  foreach ($arr as $item) {\n    if ($item === \"Daffa\") {\n      $name = $item;\n      break;\n    }\n  }\n  return \"Hello, $name!\";\n}\n\necho greeting($arr); // Hello, Daffa!\n?>"
+    "content": "<?php\n// PHP\n$arr = [\"taufiqurrahman\"];\n\nfunction greeting($arr) {\n  $name = null;\n  foreach ($arr as $item) {\n    if ($item === \"taufiqurrahman\") {\n      $name = $item;\n      break;\n    }\n  }\n  return \"Hello, $name!\";\n}\n\necho greeting($arr); // Hello, taufiqurrahman!\n?>"
   }
 ]
